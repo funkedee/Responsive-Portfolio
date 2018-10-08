@@ -1,0 +1,34 @@
+h1 {
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;  
+    width: 175px;
+    float: left;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 10px 10px 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.profile_pic {
+    height: 175px;
+    width: 175px;
+    float: left;
+    padding: 20px 20px 10px 0px;
+}
+
+p {
+    color: #777777;
+    padding: 20px 20px 0px 0px;
+    line-height: 1.5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
