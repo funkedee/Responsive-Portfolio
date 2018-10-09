@@ -25,3 +25,7 @@ input[type= "submit"] {
 input[name="message"] {
     height: 200px;
 }
+
+form {
+    width: 100%;
+}
