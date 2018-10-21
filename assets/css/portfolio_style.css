@@ -1,39 +1,42 @@
 .img_link {
+    height: 170px;
+    width: 300px;
     padding: 20px 20px 20px 0px;
+    overflow: hidden;
 }
 .link_button{
-    width: 260px;
+    width: 270px;
     background: #4aaaa5;
-    font-size: 25px;
+    font-size: 20px;
     font-weight:bold;
     color: #ffffff;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     z-index: 1;
     display: block;
     position: relative;
-    bottom: 80px;
+    bottom: 60px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .portfolio_link {
     float: left;
     width: 300px;
-    height: 300px;
+    height: 170px;
     padding: 20px 30px 20px 0px;
 }
 
 @media screen and (max-width: 768px) {
     .portfolio_link {
         width:  224px;
-        height: 224px;
+        height: 126px;
         overflow: hidden;
         margin-right: 20px;
     }
 
     .link_button {
-        width: 200px;
-        bottom: 155px;
+        width: 250px;
+        bottom:80
     }
 }
 
@@ -45,6 +48,6 @@
 
     .link_button {
         width: 100%;
-        max-width: 260px;
+        max-width: 270px;
     }
 }
