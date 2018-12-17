@@ -22,16 +22,32 @@ header {
     margin: auto;
 }
 
-h1 {
+#name-div {
     background: #4aaaa5;
     color: #ffffff;
-    text-align: center;
-    font-size: 30px;
-    padding: 20px;  
-    width: 175px;
     float: left;
+    width: 290px;
+    height: 70px;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 10px 20px 30px 20px;;  
+    width: 100%;
+    position: relative;
+    right: 20px;
     font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+}
+
+#name-div p {
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    bottom: 22px;
+
 }
 
 ul {
@@ -69,6 +85,7 @@ main {
     margin: auto;
     overflow: auto;
     margin-bottom: 100px;
+    position: relative;
 }
 
 hr {
@@ -116,7 +133,7 @@ h4 {
 
     #header_container {
         width: 90%;
-        margin-left: 50px;
+        margin-left: 26px;
     }
 }
 
@@ -128,7 +145,7 @@ h4 {
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 726px) {
     main {
         width: 80%;
     }
@@ -142,7 +159,7 @@ h4 {
         height: 140px;
     }
 
-    h1 {
+    #name-div {
         width: 100%;
     }
 

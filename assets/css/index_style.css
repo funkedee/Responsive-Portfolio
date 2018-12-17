@@ -19,4 +19,14 @@ p {
     line-height: 1.5;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
+.connect {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    padding: 15px;
+}
+@media screen and (max-width: 400px) {
+    .connect {
+        display: none;
+    }
+}

@@ -1,7 +1,7 @@
 .img_link {
     height: 170px;
-    width: 300px;
-    padding: 20px 20px 20px 0px;
+    width: 100%;
+    padding: 20px 20px 0px 0px;
     overflow: hidden;
 }
 .link_button{
@@ -23,19 +23,29 @@
     float: left;
     width: 300px;
     height: 170px;
-    padding: 20px 30px 20px 0px;
+    padding: 20px 30px 30px 0px;
+}
+figcaption {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
     .portfolio_link {
-        width:  224px;
-        height: 126px;
         overflow: hidden;
-        margin-right: 20px;
+        margin: auto;
+        padding-bottom: 20px;
+        max-width: 300px;
+    }
+
+    figcaption {
+        top:0px;
     }
 
     .link_button {
-        width: 250px;
+        width: 270;
         bottom:80
     }
 }
